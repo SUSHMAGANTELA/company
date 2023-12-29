@@ -1,0 +1,310 @@
+ *{
+    margin: 0; 
+    padding: 0; 
+    
+}
+.box1{
+    background-color: black;
+    color: white;
+    display: flex;
+    gap: 100px;
+    padding-left: 150px;
+    height: 30px;
+    padding-top:17px;
+    position: sticky;
+  
+
+}
+.headicon{
+    display: flex;
+    gap: 10px;
+    position: relative;
+    padding-left: 20px;
+    right: 100px;
+    bottom: 10px;
+    font-size: 30px;
+}
+.box2{
+    display: flex;
+    background-color: white;
+    gap: 30px;
+    position: sticky;
+    top: 0px;
+}
+.list{
+    display: flex;
+    gap: 30px;
+    font-size: x-large;
+    padding-left: 100px;
+    padding-top: 40px;
+}
+
+#logo{
+    padding-left: 100px;
+    height: 100px;
+    width: 300px;
+}
+
+.box2 .list label{
+    background-color: rgb(66, 170, 245);
+    height: 30px;
+    width: 130px;
+    padding: 4px 0 0 5px;
+    position: relative;
+    bottom: 5px;
+    border-radius: 25px;
+    cursor: pointer;
+}
+.box2  .list label:hover{
+    border: 2px solid black;
+}
+.slider{
+    display: flex;
+    justify-content: center;
+
+}
+.box4{
+    display: flex;
+}
+.box4 img{
+    height: 300px;
+    width: 500px;
+    padding: 30px 0 0 100px ;
+}
+.content{
+    display: flex;
+    padding: 100px 0 0 50px;
+    color: rgb(58, 58, 77);
+    font-size: xx-large;
+    font-weight: normal;
+    width: 550px;
+}
+.purpose{
+    text-align: center;
+   
+    padding:100px 0 50px 350px;
+    font-size: xx-large;
+    font-weight: normal;
+    width: 700px;
+}
+.box5{
+    display: flex;
+}
+.box5 .part1 p{
+    position: relative;
+    top: -650px;
+    left: 400px;
+    z-index: 1;
+    font-size: xx-large;
+    font-weight: bold;
+}
+.part1 img{
+    width: 700px;
+    height: 700px;
+    margin-top: 50px;
+    z-index: 0;
+
+}
+
+.part2 img{
+    padding-left: 300px;
+    height: 180px;
+    
+}
+.subpart2{
+    margin-left: 100px;
+    font-size: larger;
+    width: 450px;
+}
+.sudo {
+    margin-top: 10px;
+    font-size:larger;
+    width: 450px;
+   
+}
+.more{
+    justify-content: center;
+    margin-top: 60px;
+    margin-left: 40px;
+    display: inline-block;
+    color: white;
+    font-size: x-large;
+    border-radius: 10px;
+}
+
+.more label{
+    text-align: center;
+    font-size: x-large;
+    display: block;
+    width: 160px;
+    background: rgb(18, 131, 236);
+    color: black;
+    padding: 12px;
+    margin: auto;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 10px 10px 5px;
+
+}
+
+.more label:hover{
+    font-size: x-large;
+    background: rgb(0, 0, 0);
+    color: white;
+    transition-duration: 0.8s;
+}
+.box6{
+
+    background-color: black;
+    background-image: url(black.jpg);
+    justify-content: center;
+    border: 5px solid white;
+    height: 650px;
+    margin-top: 20px;
+}
+.box6 .row1 img{
+    box-shadow: 0 0 15px rgb(141, 222, 218);
+}
+.box6 .row2 img{
+    box-shadow: 0 0 15px rgb(141, 222, 218);
+}
+.box6 img:hover{
+    transform: scale(1.3);
+    box-shadow: 0 0 15px rgb(141, 222, 218);
+}
+.box6 .serv{
+    padding-left: 150px;
+    padding-top: 50px;
+}
+.row1{
+    display: flex;
+    margin-left: 200px;
+    margin-top: 60px;
+    gap: 200px;
+    font-size: x-large;
+    color: white;
+}
+.row1 img{
+    background-color: white;
+    border-radius: 50%;
+}
+.row2{
+    display: flex;
+    margin-left: 200px;
+    margin-top: 100px;
+    gap: 200px;
+    font-size: x-large;
+    color: white;
+}
+.row2 img{
+    background-color: white;
+    border-radius: 50%;
+}
+.box7{
+    background-image: url(footerimg.png);
+}
+
+.box7 .logo2{
+    padding-left: 160px; 
+    padding-top: 50px;
+}
+.box7 .logo2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+   
+}
+.end{
+  padding-top: 30px ;
+  padding-right: 100px;
+  margin-left: -200px;
+  font-size: 20px;
+  height: 100px;
+  width: 500px;
+  color:rgb(44, 80, 90);
+}
+#join{
+   display: none;
+}
+.end label{
+    position: absolute;
+    left: 700px;
+    height: 10px;
+    width: 90px;
+    background: rgb(18, 131, 236);
+    color: white;
+    padding: 10px;
+    padding-bottom: 20px;
+    margin: auto;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+
+.end label:hover{
+    background-color: orange;
+    color: white;
+}
+.box7 .logo2 img{
+    height: 120px;
+}
+.box7 .logo2 .footicon{
+    font-size: xx-large;
+    padding-left: 25px;
+    padding-bottom: 20px;
+    color: rgb(77, 77, 230);
+    display: flex;
+    gap:20px;
+}
+.mine h1{
+    text-decoration: underline;
+   
+
+}
+
+.home{
+    padding-top: 30px;
+    display:flex;
+    gap: 15px;
+    padding-right: 50px;
+}
+
+.phone{
+    display:flex;
+    gap: 15px;
+}
+.mail{
+    display:flex;
+    gap:15px;
+}
+.home img{
+    width: 50px;
+    max-height: 50px; 
+    
+}
+.phone  img{
+    width: 50px;
+    max-height: 50px;
+}
+.mail img{
+    width: 50px;
+    max-height: 50px;
+}
+.home p{
+    padding-top: 5px;
+    width: 250px;
+}
+.phone p{
+    padding-top: 15px;
+}
+.mail p{
+    padding-top: 15px;
+}
+.final{
+    width: 100%;
+    height: 20px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-top: 8px;
+    
+}
